@@ -15,7 +15,6 @@ This game was designed to test and improve reaction times in a fun, competitive 
 - 2 Push buttons
 - 1 Piezo buzzer
 - Resistors
-- Transistor (for switching logic)
 
 ## 🎮 Game Logic
 
