@@ -39,7 +39,7 @@ See the included image for breadboard wiring and component placement.
 
 ## 📁 Files Included
 
-- `ReactionSpeedGame.ino` — Main Arduino sketch
+- `main.cpp` — Main Arduino sketch
 - `README.md` — Project documentation
 - `RSPG Media/` — Circuit image and media assets
 ---
