@@ -1,7 +1,48 @@
-# ReactionSpeedGame
-Reaction Speed Game made with an Arduino
+# 🎮 Reaction Speed Game (Arduino-Based)
 
-# Project Info
-This is my very first project with an Arduino since getting the device on 17th Sept 2025. I am very proud with how far i have come in such a short amount of time.<br>
-I have not made the wiring clear i am aware of this and will do better in my next project by planning ahead and understanding to make this a priority so it is easier for me and others to understand what goes where.<br>
-Other than this, my first project is very basic and i hope to make some more advanced ones in the future soon to come.
+A fast-paced, LED-and-buzzer-driven reaction speed game built with Arduino. This project challenges two players to react as quickly as possible after a randomized countdown — with visual and auditory feedback guiding the experience.
+
+## 🧠 Project Overview
+
+This game was designed to test and improve reaction times in a fun, competitive format. After a countdown sequence, a random delay introduces unpredictability before the red LED signals players to react. The first player to press their button wins — confirmed by a white LED and a buzzer beep.
+
+## 🛠️ Hardware Used
+
+- Arduino Uno
+- Breadboard
+- Jumper wires
+- 5 LEDs (Red, Green, Yellow, 2x White)
+- 2 Push buttons
+- 1 Piezo buzzer
+- Resistors
+- Transistor (for switching logic)
+
+## 🎮 Game Logic
+
+1. **Countdown Phase**  
+   - LEDs (Green → Yellow → Red) light up in sequence.
+   - A random delay (e.g. 1–3 seconds) follows the red LED to simulate natural reaction conditions.
+
+2. **Reaction Phase**  
+   - Players wait for the red LED to turn off.
+   - The first player to press their button:
+     - Triggers their white LED to stay lit.
+     - Activates a buzzer beep to indicate victory.
+
+3. **Reset**  
+   - Game resets after a short delay or manual restart.
+
+## 📸 Circuit Layout
+
+See the included image for breadboard wiring and component placement.  
+*(Image shows LED arrangement, button inputs, buzzer placement, and Arduino connections.)*
+
+## 📁 Files Included
+
+- `ReactionSpeedGame.ino` — Main Arduino sketch
+- `README.md` — Project documentation
+- `RSPG Media/` — Circuit image and media assets
+---
+
+Made with curiosity and creativity by **ThomasPlatform-GHub**  
+*“Every project is a step toward mastery.”*
